@@ -41,7 +41,8 @@ json.each do |spell|
         level: spellHelper(spell["level"]),
         description: spell["description"],
         school: spell["school"],
-        components: spell["components"]["raw"]
+        components: spell["components"]["raw"],
+        user_created: false
     )
 
     spell["classes"].each do |char|
