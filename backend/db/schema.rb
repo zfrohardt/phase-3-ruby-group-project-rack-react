@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2021_06_03_220825) do
     t.string "description"
     t.string "school"
     t.string "components"
+    t.boolean "user_created"
   end
 
 end
